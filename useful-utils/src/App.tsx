@@ -1,14 +1,13 @@
 import { useState } from 'react'
 import './App.css'
+import ContactSearch from './DebounceDemo'
 
 function App() {
-  const [count, setCount] = useState(0)
+  
 
   return (
     <>
-      <div>
-        
-      </div>
+      <ContactSearch/>
     </>
   )
 }
